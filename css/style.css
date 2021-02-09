@@ -94,15 +94,18 @@ ul{
 }
 
 li{
-    /* line-height: 40px; */
     margin-bottom: 20px;
 }
 
-.list-title{
-    /* line-height: 30px; */
-    margin-bottom: 10px;
+summary{
+    margin-bottom: 12px;
+    color: #434950;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
+}
+
+summary:hover{
+    cursor: pointer;
 }
 
 .status{
