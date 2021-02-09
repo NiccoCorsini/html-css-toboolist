@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* HEADER */
+
+header{
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.title, .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 70px;
+}
+
+.title{
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+/* CONTAINER MACROSECTION */
+
+.container{
+    width: 75%;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+/* INTERACTIONS */
+
+.interactions{
+    height: 60px;
+    padding: 20px 50px 8px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.b1{
+   background-color: #47acf1; 
+   color: white;
+   border: 2px solid #47acf1; 
+   
+}
+
+.b2{
+    margin-left: 3px;
+    color: #d9dde0;
+    border: 2px solid #d9dde0;
+}
+
+/* LIST COMMON RULES */
+
